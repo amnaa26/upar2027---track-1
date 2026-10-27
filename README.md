@@ -18,7 +18,7 @@ Final submission: `my_submission_clip.zip` = one CLIP ViT-B/16 image encoder fin
 Only the data provided by the organizers (UPAR train + validation: Market-1501, PA100k, PETA) was used. No test images were used. The only external resource is the pretrained OpenAI CLIP ViT-B/16 image encoder weights (via open_clip).
 
 ## Trained weights
-Download `my_submission_clip.zip` (contains `w0.pt`, `config.json`) from: [YOUR GOOGLE DRIVE LINK]
+Download `my_submission_clip.zip` (contains `w0.pt`, `config.json`) from: https://drive.google.com/file/d/1zlTUiVwRVIszG3mb2xXtBur75Xph1MxQ/view?usp=sharing
 
 To run inference locally, unzip it, then use `run.py` (`load_model()` then `predict_batch(samples)`); `config.json` and `w0.pt` must be in the same folder as `run.py` and `clipvit.py`.
 
